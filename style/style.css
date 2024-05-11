@@ -5,19 +5,19 @@ body {
 }
 
 @font-face {
-  font-family: "Bold";
-  src: url("../fonts/Gotham-Bold.otf") format("opentype");
+  font-family: 'Bold';
+  src: url('../fonts/Gotham-Bold.otf') format('opentype');
 }
 @font-face {
-  font-family: "Medium";
-  src: url("../fonts/Gotham-Medium.otf") format("opentype");
+  font-family: 'Medium';
+  src: url('../fonts/Gotham-Medium.otf') format('opentype');
 }
 @font-face {
-  font-family: "Book";
-  src: url("../fonts/Gotham-Book.otf") format("opentype");
+  font-family: 'Book';
+  src: url('../fonts/Gotham-Book.otf') format('opentype');
 }
 #es-elseve.es-elseve {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 16px;
   line-height: 1.3;
@@ -35,11 +35,11 @@ body {
 #es-elseve.es-elseve h3,
 #es-elseve.es-elseve h4,
 #es-elseve.es-elseve h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #000;
 }
 #es-elseve.es-elseve .es-kv {
-  background: url("../images/kv-bg.png") no-repeat;
+  background: url('../images/kv-bg.png') no-repeat;
   background-size: cover;
 }
 #es-elseve.es-elseve .es-kv__title {
@@ -47,7 +47,7 @@ body {
   padding: 0;
   line-height: inherit;
   color: inherit;
-  font-family: "Bold", "Montserrat", sans-serif;
+  font-family: 'Bold', 'Montserrat', sans-serif;
   font-weight: inherit;
   font-weight: 200;
   font-size: 20px;
@@ -59,7 +59,17 @@ body {
 }
 #es-elseve.es-elseve .es-kv__title--red {
   color: #df0b66;
-  background: linear-gradient(90deg, rgb(239, 74, 153) 0%, rgb(239, 74, 153) 35%, rgb(251, 184, 211) 39%, rgb(239, 74, 153) 44%, rgb(239, 74, 153) 67%, rgb(239, 74, 153) 91%, rgb(251, 184, 211) 96%, rgb(239, 74, 153) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(239, 74, 153) 0%,
+    rgb(239, 74, 153) 35%,
+    rgb(251, 184, 211) 39%,
+    rgb(239, 74, 153) 44%,
+    rgb(239, 74, 153) 67%,
+    rgb(239, 74, 153) 91%,
+    rgb(251, 184, 211) 96%,
+    rgb(239, 74, 153) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -76,21 +86,31 @@ body {
 }
 #es-elseve.es-elseve .es-kv__title-description::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 58px;
   top: -8px;
   left: 0%;
-  background: url("../images/lines.png") no-repeat;
+  background: url('../images/lines.png') no-repeat;
   background-size: contain;
 }
 #es-elseve.es-elseve .es-kv__title-description--pink {
   color: #df0b66;
-  background: linear-gradient(90deg, rgb(239, 74, 153) 0%, rgb(239, 74, 153) 39%, rgb(251, 184, 211) 44%, rgb(251, 184, 211) 67%, rgb(239, 74, 153) 91%, rgb(251, 184, 211) 96%, rgb(239, 74, 153) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(239, 74, 153) 0%,
+    rgb(239, 74, 153) 39%,
+    rgb(251, 184, 211) 44%,
+    rgb(251, 184, 211) 67%,
+    rgb(239, 74, 153) 91%,
+    rgb(251, 184, 211) 96%,
+    rgb(239, 74, 153) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#es-elseve.es-elseve .es-kv__img-description-1, #es-elseve.es-elseve .es-kv__img-description-2 {
+#es-elseve.es-elseve .es-kv__img-description-1,
+#es-elseve.es-elseve .es-kv__img-description-2 {
   display: none;
 }
 #es-elseve.es-elseve .es-kv__subtitle {
@@ -100,7 +120,7 @@ body {
 }
 #es-elseve.es-elseve .es-kv__disclaimer {
   letter-spacing: -1px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 10px;
   text-transform: initial;
@@ -232,7 +252,7 @@ body {
   color: #fff;
 }
 #es-elseve.es-elseve .es-nav__link {
-  font-family: "Bold", "Montserrat", sans-serif;
+  font-family: 'Bold', 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-align: center;
@@ -240,7 +260,7 @@ body {
   text-decoration: none;
 }
 #es-elseve.es-elseve .es-formula {
-  background: url("../images/formula.png") no-repeat center;
+  background: url('../images/formula.png') no-repeat center;
   background-size: cover;
   padding: 32px;
   margin-bottom: 15px;
@@ -470,6 +490,12 @@ body {
 #es-elseve.es-elseve .es-info__line {
   display: none;
 }
+#es-elseve.es-elseve .es-info__disclaimer {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
 #es-elseve.es-elseve .es-ba {
   margin-bottom: 70px;
 }
@@ -644,7 +670,7 @@ body {
   font-weight: 800;
 }
 #es-elseve.es-elseve .es-cross__link::before {
-  content: "";
+  content: '';
   position: absolute;
   border-radius: 8px;
   top: 0;
@@ -740,7 +766,8 @@ body {
   #es-elseve.es-elseve .es-hair {
     position: relative;
   }
-  #es-elseve.es-elseve .es-hair__decoration-title--1, #es-elseve.es-elseve .es-hair__decoration-title--2 {
+  #es-elseve.es-elseve .es-hair__decoration-title--1,
+  #es-elseve.es-elseve .es-hair__decoration-title--2 {
     display: block;
     font-weight: 600;
     margin-bottom: 0;
@@ -753,7 +780,7 @@ body {
   }
   #es-elseve.es-elseve .es-hair__decoration-title--1::after {
     position: absolute;
-    content: "";
+    content: '';
     top: 22px;
     left: 12px;
     width: 95%;
@@ -769,7 +796,7 @@ body {
   }
   #es-elseve.es-elseve .es-hair__decoration-title--2::after {
     position: absolute;
-    content: "";
+    content: '';
     top: -44px;
     left: 2px;
     width: 95%;
@@ -938,7 +965,7 @@ body {
     top: 26%;
     left: 32%;
     font-size: 14px;
-    font-family: "Bold";
+    font-family: 'Bold';
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
@@ -947,7 +974,7 @@ body {
     color: #df0b66;
   }
   #es-elseve.es-elseve .es-kv__img-description-1::after {
-    content: "";
+    content: '';
     width: 1px;
     height: 25px;
     position: absolute;
@@ -962,7 +989,7 @@ body {
     top: 5%;
     left: 50%;
     font-size: 14px;
-    font-family: "Bold";
+    font-family: 'Bold';
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
@@ -971,7 +998,7 @@ body {
     color: #df0b66;
   }
   #es-elseve.es-elseve .es-kv__img-description-2::after {
-    content: "";
+    content: '';
     width: 2px;
     height: 25px;
     position: absolute;
@@ -989,11 +1016,11 @@ body {
     top: 22%;
     left: 46%;
     font-size: 12px;
-    font-family: "Bold";
+    font-family: 'Bold';
     font-weight: 500;
   }
   #es-elseve.es-elseve .es-formula__img-description-1::before {
-    content: "";
+    content: '';
     width: 25px;
     height: 2px;
     position: absolute;
@@ -1008,11 +1035,11 @@ body {
     top: 33%;
     left: 55%;
     font-size: 12px;
-    font-family: "Bold";
+    font-family: 'Bold';
     font-weight: 500;
   }
   #es-elseve.es-elseve .es-formula__img-description-2::after {
-    content: "";
+    content: '';
     width: 2px;
     height: 25px;
     position: absolute;
